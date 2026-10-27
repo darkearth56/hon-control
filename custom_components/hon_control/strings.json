@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "hOn control",
+        "description": "Adds stop, pause and resume services for appliances on the hOn integration (gvigroux/hon). No settings needed."
+      }
+    },
+    "abort": {
+      "already_configured": "hOn control is already set up."
+    }
+  },
+  "services": {
+    "stop_program": {
+      "name": "Stop program",
+      "description": "Sends the hOn stopProgram command to end the running cycle."
+    },
+    "pause_program": {
+      "name": "Pause program",
+      "description": "Sends the hOn pauseProgram command to pause the running cycle."
+    },
+    "resume_program": {
+      "name": "Resume program",
+      "description": "Sends the hOn resumeProgram command to resume a paused cycle."
+    },
+    "list_commands": {
+      "name": "List commands",
+      "description": "Returns the hOn commands this appliance supports and their parameter names. Sends nothing to the appliance."
+    }
+  }
+}

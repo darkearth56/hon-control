@@ -1,0 +1,13 @@
+{
+  "domain": "hon_control",
+  "name": "hOn control (stop, pause, resume)",
+  "codeowners": ["@darkearth56"],
+  "config_flow": true,
+  "dependencies": ["hon"],
+  "documentation": "https://github.com/darkearth56/hon-control",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/darkearth56/hon-control/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

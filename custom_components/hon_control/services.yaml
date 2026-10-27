@@ -1,0 +1,16 @@
+stop_program:
+  target:
+    device:
+      integration: hon
+pause_program:
+  target:
+    device:
+      integration: hon
+resume_program:
+  target:
+    device:
+      integration: hon
+list_commands:
+  target:
+    device:
+      integration: hon
