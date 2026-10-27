@@ -6,7 +6,11 @@ gvigroux/hon can start programs, but it has no working way to stop or pause one.
 
 It is kept separate from gvigroux/hon so that updating that integration never overwrites these services. It doesn't log in on its own: it reuses the hon integration's connection and the command list it has already loaded for each appliance.
 
-Tested on a Hoover washer-dryer: pause, resume and stop were each accepted by the hOn cloud and reached the machine in about a minute.
+## Tested on
+
+- Hoover H-Wash & Dry 400 (BH4S696M6DB9-80), integrated, Wi-Fi enabled, 9 kg washer-dryer
+
+Pause, resume and stop were each accepted by the hOn cloud and reached the machine in about a minute. Other Haier, Hoover and Candy washers should work if `list_commands` shows the `stopProgram`, `pauseProgram` and `resumeProgram` commands, but they haven't been tested.
 
 ## Requirements
 
