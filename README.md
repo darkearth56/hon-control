@@ -68,6 +68,12 @@ The machine takes about a minute to report a change back to Home Assistant, so a
 
 [hon-wash-dryer-card](https://github.com/darkearth56/hon-wash-dryer-card) shows Pause/Resume and Stop buttons automatically when this integration is installed.
 
+## Credits
+
+- The idea comes from [mmalolepszy/hon-revived](https://github.com/mmalolepszy/hon-revived) and its fork [galvani/hon](https://github.com/galvani/hon), whose washer switches send `stopProgram`/`startProgram` and `pauseProgram`/`resumeProgram`. Both continue Andre Basche's original [Andre0512/hon](https://github.com/Andre0512/hon) integration and pyhOn library.
+- [gvigroux/hon](https://github.com/gvigroux/hon) does all the work of logging in to the hOn cloud and loading each appliance's commands. This integration only sends commands through it. gvigroux/hon already had a `stop_command()` for climate and water heater devices, which showed the command was available to washers too.
+- No code is copied from these projects.
+
 ## Licence
 
 MIT
